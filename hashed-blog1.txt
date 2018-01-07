@@ -1,0 +1,37 @@
+<p>I've said in my blog before that my goal is to promote an open, standards-based Web as
+the platform for Internet content and applications, as opposed to proprietary offerings
+like Flash and WPF. For this to happen, we need to have significant market share for
+browsers whose vendors are aggressivly pursuing these goals, preferably open source browsers
+because they offer transparency and can be forked if things go wrong. I've also said before
+that therefore Firefox is just a means to this end, and there could be other means,
+other browsers such as Safari that could serve as well.
+<p>At this time it seems to me that ultimately Webkit will better serve than Gecko. We
+spend a lot of energy just trying to improve Gecko internally, with not much left over to
+make actual forward progress. Webkit seems to move faster than us and seems to have an
+easier time bringing in new developers to help. If this trend continues --- especially
+if Google invests developers in Webkit and promotes a Webkit-based browser on Windows ---
+it will win ... and this will probably be, in the end, a good thing for the Web. I believe
+quite strongly that this in fact will happen.
+<p>Of course, the question then arises, what should I do in light of this belief? I think
+it is both expedient and necessary that I continue to work on Firefox. It is expedient
+because that's what I'm currently paid to do and it helps with my other goals in life,
+such as raising a family in New Zealand and building a strong development team here.
+But it is also necessary for the Web that Firefox not stagnate even while Webkit catches
+up and overtakes us. Right now we have critical mindshare and market share that we must
+use to the maximum for the sake of the Web. We do not know when Webkit will be ready to
+take the lead, especially on Windows, and until it does, we must press the fight against
+IE. If I was to weaken the project by leaving it, I would be helping Microsoft more
+than Webkit. To leave IE with no strong competitor for any length of time would be to
+repeat the mistake of the Netscape 4 --> Firefox transition. Even the perception that
+Firefox is doomed would weaken Firefox and create that sort of vacuum.
+<p>Furthermore, there's a wider community relying on Gecko --- embedders, XUL developers,
+extension authors, Web authors, and their users, who would not be well served if Gecko suddenly
+nose-dives. If Webkit wins, they will organically attract authors, embedders and users
+away from us to themselves. That is the best way for the transition to happen, and the safest
+way forward for the Web.
+<p>Unfortunately I can't be frank about my thoughts in public, not now. It would damage Firefox
+in ways that are contrary to my goals, ways that would harm the development of the
+Web, as I mentioned above. I have shared my thoughts with a few key Mozilla project
+members --- my nearest and dearest --- and that's all I can do for now. If my predictions
+come true and Webkit takes over from Firefox as the flagship open source Web browser, then
+I can finally publish this.

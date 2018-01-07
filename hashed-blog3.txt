@@ -1,0 +1,57 @@
+Since I last raised this, not much has changed. We caught up in pure JS
+performance, but Webkit is pulling ahead again. (We've always been
+behind in real-world DOM+JS performance.) We improved our memory usage,
+but our changes there weren't large and can be replicated. A few other
+things:
+
+-- I discovered that the implementation of XMLHttpRequest is 3x
+as many lines of code in Gecko as in Webkit.
+
+-- I looked at the way DOM IDL bindings work in Webkit, it's hugely
+cleaner (and faster) than the way we do it. It's not just
+XPCOM/XPConnect; we have 10K LOC of macroized C++ code in
+nsDOMClassInfo.cpp tweaking how the DOM APIs are exposed to JS,
+they use custom attributes in their IDL for each API.
+
+-- Safari 3.1 came out with a ton of new features. It'll be interesting to
+see if we can implement a similar set of features in 1.9.1 on a similar
+schedule. Note that the majority of 1.9.1 features Webkit already has;
+we're very much in catch-up mode.
+
+-- Chris Double has been interested in contributing to Tamarin/JS work
+but hasn't been able to figure out how to get involved because it's not
+clear what the plan is or how it can be divided up into chunks. In
+contrast volunteers are making great contributions to Webkit's JS work.
+
+-- The whole fiasco with Alp Toker and Webkit/GTK+ happened. A lot of
+that was stupid Webkit overhype but the core issue is genuine: people
+like Christian Persch find the Webkit code so much more approachable
+that they're willing to use it even if it means a lot more development
+and maintenance work for them.
+
+-- For the last several months we've mostly ignored fuzz test bugs and we'll
+continue to do so during the 1.9.1 cycle. There is a huge overhang of
+security-critical bugs; we have to choose between addressing that and
+making forward progress. We are putting code-cleanup projects on the
+back burner for the same reason.
+
+-- Part of my SVG/HTML work involved fixing bugs related to
+getElementById. This required me to dig into really crazy nsXULDocument
+code that was written poorly in 2000 and isn't really maintained. This
+is often my experience when trying to do big things in Gecko.
+
+-- As you know, we had a hard time stabilizing
+Firefox 3. This may get better going forward with better tests, but
+Webkit doesn't seem to need these long freeze cycles.
+
+None of this is decisive, and I don't think it changes our planning one
+bit. In the last six months we've positioned ourselves in mobile and
+embedding in ways that would make it harder than ever to contemplate
+using Webkit, so I can't forsee nor advocate any shift in our strategy.
+But there are reinforcing effects so I expect their technology lead to
+widen over time.
+
+Nevertheless it is still really important to keep improving
+Gecko to advance the open Web, and to keep the heat on IE with strong
+Firefox releases. Even the Webkit guys say that the competition between
+Gecko and Webkit is good for the Web. So that's what we must do.

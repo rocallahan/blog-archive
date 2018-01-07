@@ -1,0 +1,42 @@
+Dear Secret Diary,
+
+Now that Chrome has surfaced, how have things changed?
+
+There's no doubt that Chrome is a big win for Webkit.
+-- It makes Webkit look (and be) much more than an Apple fiefdom
+-- It ensures there will be a viable Linux (GTK?) Webkit, and a viable non-Apple Mac Webkit
+-- It will probably increase Webkit share considerably, making it more Web-compatible
+-- It creates a shippable open-source Webkit browser for Mac, Windows and Linux. For example
+this could displace Firefox as the browser of choice on Linux, which is important given the
+inroads Linux is making in Splashtop, netbooks, etc.
+-- Google hype is likely to attract contributors to Chrome and Webkit, which means less
+contributors for us.
+
+The biggest win will be if Google hackers start making significant contribution to the Webkit
+core. Google promises this will happen. We'll see. The impact could be muted if Google doesn't
+unfork Webkit, but it seems they will. There's some tension in #webkit between Google and Apple,
+we'll see if it passes or not.
+
+For better or worse, my predictions over the last couple of years that Webkit will crush Gecko
+haven't decisively come true yet, at least in the marketplace. So I'm reluctant to sound the
+doom-and-gloom alarm again. Let's just wait; several months down the track, we'll have a clearer
+idea of how Chrome is impacting the ecosystem.
+
+As ever, the worst-case end-game is unclear. If/when the writing is on the wall --- Gecko falling
+increasingly behind, much more moementum behind Webkit, falling Firefox share --- Mozilla will
+still have significant financial and hacker strength, probably for years. The options are, I guess,
+a) carry on with Gecko until the lights go out, b) get out of the browser business (massive
+downsizing and living off investments or other income), c) risk everything to rebuild the XUL
+empire on Webkit. I'd vote for c) of course. Hyatt and others keep arguing that multiple engines
+are good for the Web, but I still don't buy it. We'd have enough competition just by pushing
+Webkit variants, and unity has strong advantages for Web developers and for pushing the platform
+forward. I especially like option c) because it means even if Mozilla fails, we'll go out with
+a bang, making significant contributions to Webkit in areas where it's behind Gecko.
+
+Interestingly, I've stopped being depressed or scared. Mozilla nosediving would suck, but the Web is
+winning. Just executing our plans, contributing as best I can is enough day-to-day satisfaction.
+We've already achieved enough to be proud of, no matter what happens next. No doubt I and the
+NZ team will land on our feet. My greatest worry is actually that I'll be tarred with the Gecko
+brush; that people will think me and the other Gecko developers just weren't good enough to
+save it. But that's not a great concern --- look at the ex-Gecko developers (architects, even)
+who are lauded for their work on Webkit and Chrome. Anyway, that's a selfish concern.
